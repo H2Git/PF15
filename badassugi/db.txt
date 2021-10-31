@@ -1,0 +1,20 @@
+-- test.Question definition
+
+CREATE TABLE `Question` (
+  `Name` varchar(100) NOT NULL,
+  `Difficulty` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- test.`Rank` definition
+
+CREATE TABLE `Rank` (
+  `ID` varchar(100) NOT NULL,
+  `Score` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- test.`User` definition
+
+CREATE TABLE `User` (
+  `ID` varchar(100) DEFAULT NULL,
+  `PWD` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
